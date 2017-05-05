@@ -245,8 +245,36 @@ input:focus {
 }
 .footer_dw {
   background: #292929;
-  height: 199px;
+  height: 80px;
+  color: white;
   padding-top: 10px;
+}
+.footer_dw > nav {
+  float: right;
+}
+.social {
+  display: inline-block;
+  float: right;
+  margin-top: -35px;
+  margin-right: 60px;
+}
+.social > img {
+   padding-right: 10px; 
+}
+.foot_sp{
+margin-left: 30px;
+
+
+}
+.footer_dw > nav > ul >li {
+  display: inline-block; 
+   list-style: none;
+   margin-right: 30px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.footer_dw > nav > ul {
+  margin-right: 160px;
 }
 
 

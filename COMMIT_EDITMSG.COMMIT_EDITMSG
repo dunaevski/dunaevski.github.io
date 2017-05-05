@@ -1,0 +1,82 @@
+
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/css/style.css b/css/style.css
+index 218da1d..eacc2ef 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -245,9 +245,37 @@ input:focus {
+ }
+ .footer_dw {
+   background: #292929;
+-  height: 199px;
++  height: 80px;
++  color: white;
+   padding-top: 10px;
+ }
++.footer_dw > nav {
++  float: right;
++}
++.social {
++  display: inline-block;
++  float: right;
++  margin-top: -35px;
++  margin-right: 60px;
++}
++.social > img {
++   padding-right: 10px; 
++}
++.foot_sp{
++margin-left: 30px;
++
++
++}
++.footer_dw > nav > ul >li {
++  display: inline-block; 
++   list-style: none;
++   margin-right: 30px;
++  font-size: 13px;
++  font-weight: lighter;
++}
++.footer_dw > nav > ul {
++  margin-right: 160px;
++}
+ 
+ 
+ 
+diff --git a/index.html b/index.html
+index ec5cb07..38484bd 100644
+--- a/index.html
++++ b/index.html
+@@ -173,12 +173,24 @@
+ 		</div>
+ 	</div>
+ 	<div class="footer_dw">
+-		<div>
+-			<h5>Информация</h5>
+-			О нас
+-		</div>
+-		&copy Сделано в Студии Артемия Лебедева 2017
++	<div class="foot_sp">
++		&copy 2017 All Rights Reserved
++	</div>
++	<div class="clear"></div>
++	<nav>
++		<ul>
++			<li>Конткты</li>
++			<li>Помощь</li>
++			<li>Посмотреть другие проекты</li>
++		</ul>
++		<div class="social">
++		<img src="img/social/Facebook.png">
++		<img src="img/social/Twitter .png">
++		<img src="img/social/Youtube.png">
+ 	</div>
++	</nav>
++	</div>
++	<div class="clear"></div>
+ </footer>
+ <!-- end main content -->
