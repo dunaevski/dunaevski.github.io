@@ -2,18 +2,31 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<title>Дом Искусства</title>
+		<!--css goes here! -->
+
+		<!-- main css-->
+	<!-- <link rel="stylesheet" href="css/reset.css">
+	-->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- slick css-->
+	<link rel="stylesheet" href="assets/slick/slick/slick.css">
+	<link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/animate/animate.css">
 </head>
 <body>
-	<div class="wrapper container">
 		<!-- header site -->
 		<header class="head">
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-static-top">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myInverseNavbar2" aria-expanded="false">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -21,22 +34,25 @@
 						</button>
 						<a class="navbar-brand" href="#" id="name_site">Дом Искусства</a>
 					</div>
-					<div class="collapse navbar-collapse" id="myInverseNavbar2">
-						<ul class="nav navbar-nav navbar-center">
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right navcs">
 							<li><a href="http://">Домой</a></li>
 							<li><a href="http://">Фото</a></li>
 							<li><a href="http://">Вопросы</a></li>
-							<li><a href="http://">Контакты</a></li>
+							<li><a href="#contacts">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
-		
+		<div class="container">
 		<div class="main_pic">
+
+			<div class="caption light animated wow fadeInDown clearfix">
 			<div id="container_log">
-				<h1 id="h1_main">HOUSE OF ART</h1>
-			</div>
+							<h1 id="h1_main">HOUSE OF ART</h1>
+						</div>
+						</div>
 			<center>
 				<div id="container"></div>
 			</center>
@@ -164,55 +180,40 @@
 		</main>
 	</div>
 	<footer>
-		<div class="footer_up">
-			<div id="footer_con">
-				<h3>Отпрате нам сообщение</h3>
-				<input type="name" class="input_foo" placeholder="Имя">
-				<br>
-				<input type="email" class="input_foo"  placeholder="E-mail">
-				<br>
-				<input type="text" class="input_foo"  placeholder="Комментарий">
-				<br>
-				<button class="send_mess">Отправить</button>
-			</div>
-		</div>
-		<div class="footer_dw">
-			<div class="foot_sp">&copy 2017 Yalta. All Rights Reserved</div>
-			<nav>
-				<ul>
-					<li>Конткты</li>
-					<li>Помощь</li>
-					<li>Посмотреть другие проекты</li>
-				</ul>
-				<div class="social">
-					<img src="img/social/Facebook.png">
-					<img src="img/social/Twitter .png">
-					<img src="img/social/Youtube.png"></div>
-			</nav>
-		</div>
-		<div class="clear"></div>
+			<div class="footer_up">
+					<div id="footer_con">
+						<h3>Отпрате нам сообщение</h3>
+						<input type="name" class="input_foo" placeholder="Имя">
+						<br>
+						<input type="email" class="input_foo"  placeholder="E-mail">
+						<br>
+						<input type="text" class="input_foo"  placeholder="Комментарий">
+						<br>
+						<button class="send_mess">Отправить</button>
+					</div>
+				</div>
+				<div class="footer_dw">
+					<div class="foot_sp">&copy 2017 Yalta. All Rights Reserved</div>
+					<nav>
+						<ul>
+							<li id="contacts">Конткты</li>
+							<li>Помощь</li>
+							<li>Посмотреть другие проекты</li>
+						</ul>
+						<div class="social col-md-4 social">
+							<img src="img/social/Facebook.png">
+							<img src="img/social/Twitter .png">
+							<img src="img/social/Youtube.png"></div>
+					</nav>
+				</div>
 	</footer>
 	<!-- end main content -->
-
-	<!--css goes here! -->
-
-	<!-- main css-->
-	<!-- <link rel="stylesheet" href="css/reset.css">
-	-->
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<!-- slick css-->
-	<link rel="stylesheet" href="assets/slick/slick/slick.css">
-	<link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
-	<!-- bootstrap css -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-
 	<!-- javascript goes here! -->
 
 	<!-- main javascript -->
 	<script src="js/main.js" defer></script>
 	<!-- jQuery  -->
-	<script src="assets/jQuery/jquery-3.2.0.min.js" defer></script>
+	<script src="assets/jQuery/jquery-3.2.0.min.js" ></script>
 	<!-- javascript slick -->
 	<script src="assets/slick/slick/slick.min.js" defer></script>
 	<!-- Bootstrap -->
