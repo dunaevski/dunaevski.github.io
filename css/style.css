@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @font-face {
-      font-family: Roboto Slab;
-      src: url(../fonts/RobotoSlab-Bold.ttf);
-      font-family: Anurati-Regular; /* Гарнитура шрифта */
-      src: url(../fonts/Anurati-Regular.otf); /* Путь к файлу со шрифтом */
+      font-family: 'Roboto Slab';
+      src: url('../fonts/RobotoSlab-Bold.ttf');
+      font-family: 'Anurati-Regular'; /* Гарнитура шрифта */
+      src: url('../fonts/Anurati-Regular.otf'); /* Путь к файлу со шрифтом */
+      font-family: 'Oswald';
+      src: url('../fonts/Oswald-Regular.ttf');
 }
 
 html, body {
@@ -43,7 +45,7 @@ span {
   font-family: 'Oswald', sans-serif;
   font-size: 200%;
   margin-top: 5px;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 30px;
   color: red;
 }
 .navcs li {
@@ -66,7 +68,7 @@ span {
 }
 .main_pic {
   /*padding-bottom: 100px*/
-  background: url("../img/logo_up.jpg") top center no-repeat;
+  background: url("../img/logo.jpg") top center no-repeat;
   width: 100%;
   height: 100%;
   margin-top: -20px;
@@ -79,9 +81,9 @@ span {
   padding-top: 335px; 
 }
 #h1_main {
-  font-family: Anurati-Regular, 'Anurati-Regular'; /* Гарнитура шрифта */
+  font-family: 'Anurati-Regular', bold; /* Гарнитура шрифта */
   font-size: 500%;
-  color: white;
+  color: rgb(23, 29, 28);
 }
 #container {
   background: red;
@@ -203,7 +205,7 @@ span {
   height: auto;
 }
 .footer_up {
-  background: url("../img/logo_up.jpg") top center no-repeat;
+  background: url("../img/logodw.jpg") top center no-repeat;
   height: 800px;
 }
 #footer_con {
@@ -300,8 +302,16 @@ input:focus {
     height: 10em;
   }
 }
+
 /*Телефон*/
-@media (max-width: 580px) {
+@media (max-width: 783px) {
+  #name_site {
+  font-family: 'Oswald', sans-serif;
+  font-size: 170%;
+  margin-top: 5px;
+  margin: 0 0 0 10px;
+  color: red;
+}
   .social{
     margin-top: -30px;
   }
@@ -315,7 +325,6 @@ input:focus {
   .footer_dw nav ul li:first-child{
     margin-top: 16px;
   }
- 
 #footer_con {
   background: white;
   float: right;
@@ -361,10 +370,7 @@ input:focus {
   outline: none !important;
   border: 0 !important;
 }
-
-
-
-  .social > img {
+.social > img {
   padding-right: 10px; 
   }
 }
