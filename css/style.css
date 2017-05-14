@@ -5,6 +5,7 @@
 @font-face {
       font-family: 'Roboto Slab';
       src: url('../fonts/RobotoSlab-Bold.ttf');
+      src: url('../fonts/RobotoSlab-Regular.ttf');
       font-family: 'Anurati-Regular'; /* Гарнитура шрифта */
       src: url('../fonts/Anurati-Regular.otf'); /* Путь к файлу со шрифтом */
       
@@ -157,6 +158,7 @@ span {
   font-size: 100%;
   margin-bottom: 20px;
   padding-left: 10px;
+  margin-right: 4px;
 }
 .text_h3 {
   text-align: center;
@@ -167,7 +169,7 @@ span {
 }
 .goesto {
   height: 100%;
-  width: 100%;
+  width: 45%;
   position: relative;
   background: #ff0000;
   color: white;
@@ -179,6 +181,12 @@ span {
   padding: 10px;
   margin-bottom: -25px;
 }
+.goesto a {
+  color: white;
+}
+.goesto a:hover {
+  color: white;
+}
 #why {
   padding: 40px 0;
   text-align: center;
@@ -187,11 +195,18 @@ span {
   width: 30%;
   float: left;
 }
+
 .block_why_m5 {
   margin: 0 5%;
 }
+.img_2 {
+  transform: rotate(90deg);
+}
+.img_3 {
+  transform: rotate(180deg);
+}
 .block_why > img {
-  max-width: 100%;
+  max-width: 39%;
   height: auto;
 }
 .block_why > h4 {
@@ -298,12 +313,40 @@ input:focus {
   margin-right: 5px; 
   margin-left: 5px;
 }
+.content h1 {
+  font-family: 'Roboto Slab', fantasy;
+  margin-bottom: 40ppax;
+}
+.har {
+  background: red;
+  color: white;
+  padding: 0px;
+}
+.har_un {
+  background: none;
+  color: red;
+  padding: 0px;
+}
+.content img {
+  width: 45%;
+  height: auto;
+  margin: 1em;
+}
+
+
 
 
 
 
 /*Компьютер*/
-
+@media (max-width: 1920px) {
+  .why_first {
+    margin-left: 10px;
+  }
+  .block_why_m5 {
+  margin: 0 3%;
+}
+}
 /*Планшет*/
 @media (max-width: 1024px) {
   .social {
@@ -399,6 +442,10 @@ input:focus {
 .social > img {
   margin-right: 10px; 
   }
+.content img {
+  width: 80%;
+
+}
 }
 
 
