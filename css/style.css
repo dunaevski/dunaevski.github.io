@@ -305,7 +305,7 @@ input:focus {
 }
 
 /*Телефон*/
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 #name_site {
 font-family: 'Oswald', sans-serif;
 font-size: 170%;
