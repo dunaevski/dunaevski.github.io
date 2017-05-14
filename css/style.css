@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Oswald&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @font-face {
@@ -7,8 +7,7 @@
       src: url('../fonts/RobotoSlab-Bold.ttf');
       font-family: 'Anurati-Regular'; /* Гарнитура шрифта */
       src: url('../fonts/Anurati-Regular.otf'); /* Путь к файлу со шрифтом */
-      font-family: 'Oswald';
-      src: url('../fonts/Oswald-Regular.ttf');
+      
 }
 
 html, body {
@@ -221,6 +220,7 @@ span {
 #footer_con > h3 {
   font-family: 'Roboto Slab', serif;
   margin-top: 40px;
+
   margin-left: 35px;
   font-size: 25px;
 }
@@ -304,35 +304,39 @@ input:focus {
 }
 
 /*Телефон*/
-@media (max-width: 783px) {
-  #name_site {
-  font-family: 'Oswald', sans-serif;
-  font-size: 170%;
-  margin-top: 5px;
-  margin: 0 0 0 10px;
-  color: red;
+@media (max-width: 767px) {
+#name_site {
+font-family: 'Oswald', sans-serif;
+font-size: 170%;
+margin-top: 5px;
+margin: 0 0 0 10px;
+color: red;
 }
-  .social{
-    margin-top: -30px;
-  }
-  .footer_dw{
-    height: 14em;
-  }
-  .footer_dw nav ul li {
-    width: 100%;
-    margin-top: 10px;
-  }
-  .footer_dw nav ul li:first-child{
-    margin-top: 16px;
-  }
+.tdcr {
+  height: 100%;
+  width: 100%;
+}
+
+.social{
+  margin-top: -30px;
+}
+.footer_dw{
+  height: 14em;
+}
+.footer_dw nav ul li {
+  width: 100%;
+  margin-top: 10px;
+}
+.footer_dw nav ul li:first-child{
+  margin-top: 16px;
+}
 #footer_con {
   background: white;
-  float: right;
-  margin-right: 10%;
   margin-top: 415px;
+  margin-right: 0px;
 /*  margin: 0 auto;*/
 /*  margin-top: 250px;*/
-  width: 75%;
+  width: 100%;
   height: 48%;
 }
 #footer_con > h3 {
@@ -359,7 +363,7 @@ input:focus {
   color: rgb(23, 29, 28)
 }
 .send_mess {
-  width: 110px;
+  width: 130px;
   height: 41px;
   margin-top: 45px;
   margin-left: 40px;
