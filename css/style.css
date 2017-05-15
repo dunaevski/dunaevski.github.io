@@ -315,7 +315,7 @@ input:focus {
 }
 .content h1 {
   font-family: 'Roboto Slab', fantasy;
-  margin-bottom: 40ppax;
+  margin-bottom: 40px;
 }
 .har {
   background: red;
@@ -328,10 +328,33 @@ input:focus {
   padding: 0px;
 }
 .content img {
-  width: 45%;
+  width: 40%;
   height: auto;
   margin: 1em;
 }
+.hr_ph {
+  color: red;
+  border: 1px solid red;
+  width: 80%;
+}
+.first_con {
+  margin-left: 40px;
+}
+.contact {
+  display: inline-block;
+  margin-right: 100px;
+}
+.contact p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.first_con a{
+  color: red;
+}
+.cent iframe{
+  border-bottom: 0px;
+}
+
 
 
 
@@ -444,7 +467,9 @@ input:focus {
   }
 .content img {
   width: 80%;
-
+}
+.first_con {
+  margin-left: 0px;
 }
 }
 
