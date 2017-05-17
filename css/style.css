@@ -362,7 +362,7 @@ input:focus {
 .col {
   position: relative;
     float: left;
-    width: 459px;
+    width: 40%;
     font-size: 13px;
     line-height: 20px;
     margin-right: 30px;
@@ -396,6 +396,10 @@ input:focus {
   }
   .footer_dw{
     height: 10em;
+  }
+  .col {
+    width: 100%;
+    margin-left: 0px;
   }
 }
 
@@ -489,6 +493,11 @@ input:focus {
 .first_con {
   margin-left: 0px;
 }
+.col {
+  width: 100%;
+  margin-left: 0px;
+}
+
 }
 
 
