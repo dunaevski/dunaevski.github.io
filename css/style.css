@@ -435,6 +435,10 @@ input:focus {
     height: 100%;
     width: 100%;
   }
+  #slider {
+    width: 94%;
+    margin-left: 0.6em;
+  }
   .block_why {
     width: 30%;
     float: left;
