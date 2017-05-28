@@ -290,7 +290,7 @@ input:focus {
 }
 .foot_sp{
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 3vh;
   float: left;
   font-family: 'Roboto Slab', serif !important;
   font-size: 13px;
@@ -306,7 +306,7 @@ input:focus {
   list-style: none;
   padding: 0 10px 0 10px;
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 3vh;
   font-weight: lighter;
 }
 .footer_dw > nav > ul > li > a {
@@ -314,11 +314,10 @@ input:focus {
 }
 .social {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 3vh;
 }
-.social a img {
-  width: 58%;
-  height: auto;
+.social > a > img {
+
   margin-right: 5px; 
   margin-left: 5px;
 }
@@ -382,6 +381,17 @@ input:focus {
     font: small-caption;
     font-size: 115%;
   }
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:100px;
+right:23px;
+display:none;
+text-indent:-9999px;
+background: url('../img/icon_top.png') no-repeat;
+}
 
 
 
@@ -409,6 +419,12 @@ input:focus {
   .col {
     width: 100%;
     margin-left: 0px;
+  }
+  .social {
+  margin-top: 3vh;
+}
+  .scrollup{ 
+    visibility: hidden;
   }
 }
 
@@ -519,6 +535,10 @@ input:focus {
     width: 100%;
     margin-left: 0px;
   }
+  .scrollup{ 
+    visibility: hidden;
+  }
+
 }
 
 
