@@ -13,15 +13,6 @@ window.onload = function () {
 	});
 }
 
-// Анимация выхода логотипа
-$(document).on('click', 'a.page-scroll', function(event) {
-    var $anchor = $(this);
-    $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-    }, 1250, 'easeInOutExpo');
-    event.preventDefault();
-});
-
 // Быстрая кнопка наверх
 $(document).ready(function(){ 
 	$(window).scroll(function(){
